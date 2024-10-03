@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Liquan Wang</title>
+  <link rel="icon" type="image/png" href="img/liquan.jpg"/>
+
+  <!-- CSS  -->
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/aos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/font-awesome.min.css" rel="stylesheet" >
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style>
+    body {
+      font-size: 18px;
+    }
+
+    .profile-name {
+      font-size: 28px;
+    }
+
+    .profile-link {
+      font-size: 16px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .paper-block {
+      display: flex;
+      align-items: center;
+      height: 350px;
+    }
+
+    .paper-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .paper-author {
+      font-size: 18px;
+    }
+
+    .paper-block img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="navbar-fixed">
+    <nav class="">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="left">
+          <li><a class="nav-item waves-effect waves-light" href="#home">Home</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#about">Bio</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#news">News</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#publication">Publications</a></li>
+          <li><a class="nav-item waves-effect waves-light" href="#hobby">Hobby</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div id="home" class="parallax-container scrollspy">
+
+  <div class="container row cover-block">
+
+    <div class="profile-image-block col s12 m12 l4 center">
+        <img class="responsive-img profile-photo z-depth-2" src="img/liquan.jpg">
+    </div>
+
+    <div class="profile-content-block col s12 m12 l8">
+        <h5 class="profile-name">Liquan Wang</h5>
+        <hr>
+        <br>
+        <h6 class="profile-link"><a href="https://www.gatech.edu">Georgia Institute of Technology</a></h6>
+        <br>
+        <h6 class="profile-link"><b>Email</b>: lwang831 at gatech dot edu</h6>
+        <br>
+        <h6 class="profile-link">
+        <a href="CV/Resume.pdf" style="color:white;font-size:14pt">CV</a> &nbsp; | &nbsp;
+        <a href="https://github.com/LiCHOTHU" style="color:white;font-size:14pt">GitHub</a>
+        </h6>
+    </div>
+  </div>
+  <div class="parallax"><img src="img/cover_blur.png" alt="Unsplashed background img 1"></div>
+</div>
+
+<div class="section about-section scrollspy" id="about">
+  <div class="row container">
+
+    <div class="row">
+        <p style="background-color: #FFFACD">
+          I am looking for robotics internship opportunities for PhD students starting in 2025. Please see <a href="CV/Resume.pdf">my CV</a> and <a href="mailto:lwang831@gatech.edu">contact me</a> if you know of any opportunities that may be a good fit!
+        </p>
+    </div>
+
+    <div class="row">
+      <div class="title">Bio</div>
+      <hr>
+    </div>
+
+    <div class="row">
+        <p>
+          I am a Ph.D. student in Computer Science at Georgia Institute of Technology, advised by Professor <a href="https://animesh.garg.tech/">Animesh Garg</a>. My research interests lie in Robotics, Computer Vision, and Reinforcement Learning. I have extensive experience in robotic manipulation tasks, including developing MPM particle systems in PhysX and working with cutting-edge technologies like IsaacSim and IsaacGym.
+        </p>
+
+        <p>
+          Prior to joining Georgia Tech, I transferred to the University of Toronto in 2017 after beginning my undergraduate studies at Tsinghua University in Beijing, where I studied physics. I later completed my Master of Science in Computer Science at the University of Toronto, specializing in robotics.
+        </p>
+
+        <p>
+          In addition to my academic pursuits, I have completed internships at Nvidia where I worked on robotics simulation, and have published several papers in leading robotics and AI conferences.
+        </p>
+    </div>
+    
+  </div>
+</div>
+
+<div class="section news-section scrollspy" id="news">
+  <div class="row container">
+    <br>
+    <div class="row">
+      <div class="title">News</div>
+      <hr>
+    </div>
+    <div class="row">
+      <ul>
+        <li>09 / 2024: Paper titled "Discovering Robotic Interaction Modes with Discrete Representation Learning" accepted to CoRL 2024.</li>
+        <li>01 / 2024: Started my Ph.D. in Computer Science at Georgia Institute of Technology.</li>
+        <li>12 / 2023: Graduated with a Master of Science in Computer Science from the University of Toronto.</li>
+        <li>01 / 2023: Completed internship at Nvidia, working on robotic simulations in PhysX.</li>
+        <li>08 / 2021: Published a paper on Self-Supervised Learning of Action Affordances at ICRA 2023.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section publication-section scrollspy" id="publication">
+  <div class="row container">
+    <br>
+    <div class="row">
+      <div class="title">Selected Publications</div>
+      <hr>
+    </div>
+
+    <div class="row paper-block">
+        <div class="col s12 m12 l4 center">
+          <img class="responsive-img" src="papers/actaim2.png">
+        </div>
+        <div class="col s12 m12 l8">
+          <div class="paper-title">Discovering Robotic Interaction Modes with Discrete Representation Learning</div>
+          <div class="paper-author"> 
+            <b><a href="https://lichothu.github.io/">Liquan Wang</a></b>, 
+            <a href="https://imankgoyal.github.io/">Ankit Goyal</a>, 
+            <a href="https://jack-xhp.github.io/">Haoping Xu</a>, 
+            <a href="https://animesh.garg.tech/">Animesh Garg</a>
+          </div>
+          <font color="black">Conference on Robot Learning (CoRL), 2024</font> 
+          <br />
+          <a href="#">Paper (coming soon)</a> / 
+          <a href="https://actaim2.github.io/">Project page</a>
+        </div>
+    </div>
+
+    <div class="row paper-block">
+        <div class="col s12 m12 l4 center">
+          <img class="responsive-img" src="papers/actaim.png">
+        </div>
+        <div class="col s12 m12 l8">
+          <div class="paper-title">Self-Supervised Learning of Action Affordances as Interaction Modes</div>
+          <div class="paper-author"> 
+            <b><a href="https://lichothu.github.io/">Liquan Wang</a></b>, 
+            <a href="https://dvornikita.github.io/">Nikita Dvornik</a>, 
+            <a href="https://www.linkedin.com/in/rafael-dubeau-2ab53517b/">Rafael Dubeau</a>, 
+            <a href="https://mayankm96.github.io/">Mayank Mittal</a>, 
+            <a href="https://animesh.garg.tech/">Animesh Garg</a>
+          </div>
+          <font color="black">International Conference on Robotics and Automation (ICRA), 2023</font> 
+          <br />
+          <a href="https://arxiv.org/abs/2305.17565">Paper</a> / 
+          <a href="https://actaim.github.io/">Project page</a>
+        </div>
+    </div>
+
+    <div class="row paper-block">
+        <div class="col s12 m12 l4 center">
+          <img class="responsive-img" src="papers/graspd.gif">
+        </div>
+        <div class="col s12 m12 l8">
+          <div class="paper-title">Grasp'D: Differentiable Contact-rich Grasp Synthesis for Multi-fingered Hands</div>
+          <div class="paper-author"> 
+            <a href="https://www.cs.toronto.edu/~dylanturpin/">Dylan Turpin</a>, 
+            <b><a href="https://lichothu.github.io/">Liquan Wang</a></b>, 
+            <a href="https://eric-heiden.com/">Eric Heiden</a>, 
+            <a href="https://yunchunchen.github.io/">Yunchun Chen</a>, 
+            <a href="http://blog.mmacklin.com/about/">Miles Macklin</a>, 
+            <a href="http://tsogkas.github.io/">Stavros Tsogkas</a>, 
+            <a href="https://www.cs.toronto.edu/~sven/">Sven Dickinson</a>, 
+            <a href="https://animesh.garg.tech/">Animesh Garg</a>
+          </div>
+          <font color="red"><b>Oral Presentation at European Conference on Computer Vision (ECCV), 2022</b></font> 
+          <br />
+          <a href="https://arxiv.org/abs/2208.12250">Paper</a> / 
+          <a href="https://graspd-eccv22.github.io/">Project page</a>
+        </div>
+    </div>
+
+    <div class="row paper-block">
+        <div class="col s12 m12 l4 center">
+          <img class="responsive-img" src="papers/gift.gif">
+        </div>
+        <div class="col s12 m12 l8">
+          <div class="paper-title">Self-Supervised Discovery of Contact-Aware Tool Affordances</div>
+          <div class="paper-author"> 
+            <a href="https://www.cs.toronto.edu/~dylanturpin/">Dylan Turpin</a>, 
+            <b><a href="https://lichothu.github.io/">Liquan Wang</a></b>, 
+            <a href="http://tsogkas.github.io/">Stavros Tsogkas</a>, 
+            <a href="https://www.cs.toronto.edu/~sven/">Sven Dickinson</a>, 
+            <a href="https://animesh.garg.tech/">Animesh Garg</a>
+          </div>
+          <font color="black">Robotics: Systems and Science (RSS), 2021</font> 
+          <br />
+          <a href="https://arxiv.org/abs/2106.14973">Paper</a> / 
+          <a href="https://www.pair.toronto.edu/blog/2021/giftturpin/">Project page</a>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section hobby-section scrollspy" id="hobby">
+  <div class="row container">
+    <br>
+    <div class="row">
+      <div class="title">Hobbies</div>
+      <hr>
+    </div>
+    <div class="row">
+      <p>
+        In addition to my research, I have a strong passion for music and chess. I have been playing the violin since the age of 8, and I am also an accomplished chess player, holding the title of FIDE Master in China. Chess and music have been instrumental in shaping my strategic thinking and discipline, both of which complement my academic pursuits.
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer white lighten-4">
+    <div class="row">
+      <div class="col l4 offset-l4 s12">
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=THulLRlsDUvjodnYpDCviW_mAVbauRC9pS7yOCczJQI"></script>
+      </div>
+    </div>
+    <div class="footer-copyright center black-text">
+      Template from <a href="https://yunchunchen.github.io/">Yunchun Chen</a>
+    </div>
+  
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
+
